@@ -1,9 +1,9 @@
 // Calculadora simple - Práctica Git Nivel 3
 
 function sumar() {
-    const number1 = parseFloat(document.getElementById('num1').value) || 0;
-    const number2 = parseFloat(document.getElementById('num2').value) || 0;
-    mostrarResultado(num1 + num2);
+    const numero1 = parseFloat(document.getElementById('num1').value) || 0;
+    const numero2 = parseFloat(document.getElementById('num2').value) || 0;
+    mostrarResultado(numero1 + numero2);
 }
 
 function restar() {
