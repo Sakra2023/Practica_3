@@ -3,6 +3,7 @@
 function sumar() {
     const numero1 = parseFloat(document.getElementById('num1').value) || 0;
     const numero2 = parseFloat(document.getElementById('num2').value) || 0;
+    console.log(`Suma: ${numero1} + ${numero2}`);   // ← línea nueva
     mostrarResultado(numero1 + numero2);
 }
 
