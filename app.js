@@ -1,8 +1,8 @@
 // Calculadora simple - Práctica Git Nivel 3
 
 function sumar() {
-    const num1 = parseFloat(document.getElementById('num1').value) || 0;
-    const num2 = parseFloat(document.getElementById('num2').value) || 0;
+    const number1 = parseFloat(document.getElementById('num1').value) || 0;
+    const number2 = parseFloat(document.getElementById('num2').value) || 0;
     mostrarResultado(num1 + num2);
 }
 
